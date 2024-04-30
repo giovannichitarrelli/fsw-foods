@@ -7,7 +7,7 @@ interface CategoryItem {
 
 const CategoryItem = ({ category }: CategoryItem) => {
   return (
-    <div className="flex items-center gap-3 rounded-full bg-white px-4 py-3 shadow-md">
+    <div className="flex min-w-max items-center gap-3 rounded-full bg-white px-4 py-3 shadow-md">
       <Image
         src={category.imageUrl}
         alt={category.name}
