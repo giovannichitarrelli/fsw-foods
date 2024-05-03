@@ -14,7 +14,7 @@ interface ProductListItemProps {
   }>[];
 }
 
-const ProductsList = async ({products}: ProductListItemProps) => {
+const ProductsList = ({products}: ProductListItemProps) => {
   
   return (
     <div className="flex gap-4 overflow-x-scroll px-5 [&::-webkit-scrollbar]:hidden ">
