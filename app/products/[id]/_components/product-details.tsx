@@ -104,7 +104,6 @@ const ProductDetails = ({
         </div>
       </div>
 
-
       <div className="px-5">
         {/*  DADOS DA ENTREGA */}
         <Card className="mt-6 flex justify-around px-5  py-2">
@@ -150,8 +149,6 @@ const ProductDetails = ({
         <h3 className="text-semibold px-5">Sucos</h3>
         <ProductsList products={complementaryProducts} />
       </div>
-
-      
     </div>
   );
 };
