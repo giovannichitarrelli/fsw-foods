@@ -4,7 +4,7 @@ import CategoryItem from "./category-item";
 const CategoryList = async () => {
   const categories = await db.category.findMany({});
   return (
-    <div className="flex gap-3 overflow-x-scroll [&::-webkit-scrollbar]:hidden">
+    <div className="flex gap-3 overflow-x-scroll [&::-webkit-scrollbar]:hidden py-2 ">
       {categories.map((category) => (
         <CategoryItem key={category.id} category={category} />
       ))}
